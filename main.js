@@ -352,9 +352,6 @@ const workersProfile = [
     }
 ];
 
-
-// workersProfile.splice(workersProfile[workersProfile.length], 2)
-
 // first and last names of workers
 for(let i = 0; i < workersProfile.length; i++){
     let names = `${workersProfile[i].firstName} ${workersProfile[i].lastName}`;
@@ -368,12 +365,10 @@ for(let i = 0; i < workersProfile.length; i++){
        console.log(salary);
 };
 
-
 // info of worker at index 33
 for(let i = 50; i === workersProfile.length; i++){            
     console.log(workersProfile[i -17]);
 };
-
 
 // salary of sofia turner
 for(let i = 0; i < workersProfile.length; i++){
@@ -385,24 +380,9 @@ for(let i = 0; i < workersProfile.length; i++){
 console.log(workersProfile.length);
 
 // miller murphy's name
-// for(let i = 0; i < workersProfile.length; i++){
-    // let changeName = {
+workersProfile[44].firstName = "milner"; 
+console.log(workersProfile);
 
-    // }
-// };
-
-let work = workersProfile[49];
-// work = "hhhh";
-work = {
-    firstName : "milner",
-    lastName : "sdcdc",
-    age : 22,
-    gender : "male"
-};
-
-console.log(work);
-
-// for(let i = 0; i < workersProfile.length; i++){
-//    let look = workersProfile[i -33];
-//     console.log(look);
-// };
+// aldus adams' gender
+workersProfile[49].gender = "female";
+console.log(workersProfile);
