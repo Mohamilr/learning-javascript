@@ -353,36 +353,43 @@ const workersProfile = [
 ];
 
 // first and last names of workers
+console.log("first and last names of workers".toUpperCase());
 for(let i = 0; i < workersProfile.length; i++){
     let names = `${workersProfile[i].firstName} ${workersProfile[i].lastName}`;
     console.log(names);
 };
 
 // sum of workers salaries
+console.log("sum of workers salaries".toUpperCase());
 let salary = 0;
 for(let i = 0; i < workersProfile.length; i++){
-      salary += workersProfile[i].salary;
-       console.log(salary);
+      salary += workersProfile[i].salary;  
 };
+console.log(salary);
 
 // info of worker at index 33
+console.log("info of worker at index 33".toUpperCase());
 for(let i = 50; i === workersProfile.length; i++){            
     console.log(workersProfile[i -17]);
 };
 
 // salary of sofia turner
+console.log("salary of sofia turner".toUpperCase());
 for(let i = 0; i < workersProfile.length; i++){
     let income = workersProfile[50 -14].salary;
     console.log(income);
 };
 
 // length of the array
+console.log("length of the array".toUpperCase());
 console.log(workersProfile.length);
 
 // miller murphy's name
+console.log("miller murphy's name corrected".toUpperCase());
 workersProfile[44].firstName = "milner"; 
 console.log(workersProfile);
 
 // aldus adams' gender
+console.log("aldus adams' gender corrected".toUpperCase());
 workersProfile[49].gender = "female";
 console.log(workersProfile);
