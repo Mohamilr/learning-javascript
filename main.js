@@ -367,6 +367,14 @@ for(let i = 0; i < workersProfile.length; i++){
 };
 console.log(salary);
 
+//average age of all workers
+console.log("average age of all workers".toUpperCase());
+let averageAge = 0;
+for(let i = 0; i < workersProfile.length; i++){
+    averageAge += workersProfile[i].age/2;
+};
+console.log(averageAge);
+
 // info of worker at index 33
 console.log("info of worker at index 33".toUpperCase());
 for(let i = 50; i === workersProfile.length; i++){            
